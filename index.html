@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101110">
+  <title>Una noche de juego · Halloween</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="invitation">
+    <header class="topbar"><a class="wordmark" href="#inicio" aria-label="Inicio">AFTER DARK<span> / 07 NOV</span></a><span class="edition">HALLOWEEN EDITION</span></header>
+    <section class="hero" id="inicio" aria-labelledby="title">
+      <div class="copy">
+        <p class="eyebrow"><span aria-hidden="true"></span> ESTÁS INVITADO</p>
+        <h1 id="title">¿Jugamos<br>esta <em>noche?</em></h1>
+        <p class="intro">Las buenas noches tienen un lado oscuro.<br>Ven a celebrar Halloween con nosotros.</p>
+        <div class="event-details" aria-label="Detalles del evento">
+          <div><span class="label">LA FECHA</span><p>07 <span>noviembre</span></p></div>
+          <div><span class="label">EL HORARIO</span><p>6 PM <span>— 2 AM</span></p></div>
+          <div><span class="label">EL COVER</span><p>$100 <span>MXN</span></p></div>
+        </div>
+        <button id="rsvp-button" type="button" aria-controls="rsvp-message">Confirmar asistencia <span aria-hidden="true">↗</span></button>
+        <p class="demo-note">Modo demostración · No se guardan registros.</p>
+        <p id="rsvp-message" class="message" role="status" aria-live="polite" hidden></p>
+      </div>
+      <div class="art" aria-hidden="true">
+        <div class="art-caption">GOOD FRIENDS. BAD IDEAS.</div>
+        <div class="orbit"></div>
+        <div class="doll"><div class="hair"></div><div class="ear left"></div><div class="ear right"></div><div class="face"><div class="brow left"></div><div class="brow right"></div><div class="eye left"></div><div class="eye right"></div><div class="scar"></div><div class="nose"></div><div class="smile"></div><div class="freckles"></div></div><div class="body"><div class="overalls"></div></div></div>
+        <span class="art-number">01 / DON'T PLAY ALONE</span>
+      </div>
+    </section>
+    <section class="drinks" aria-labelledby="drinks-title"><h2 id="drinks-title">BEBIDAS INCLUIDAS</h2><p>Cerveza <span>✦</span> Red Label <span>✦</span> Bacardí <span>✦</span> Gin</p></section>
+    <footer><span>Una noche para recordar. Si te atreves.</span><span>07 NOV · HASTA LAS 2 AM DEL 08 NOV</span></footer>
+  </main>
+</body>
+</html>
